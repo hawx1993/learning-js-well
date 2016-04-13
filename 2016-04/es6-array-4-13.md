@@ -5,8 +5,8 @@
 `return a && b || c `,
 根据a来判断返回值，a 是 false 则肯定返回 c；如果 b , c 都是 true ，那么我们就可以根据 a 来决定b 还是 c ，如果 a 是 false 则返回 c，如果a是true 则返回 b。
 
-```
- var a = 3  &&  0 || 2;  //2 , false || true
+```js
+var a = 3  &&  0 || 2;  //2 , false || true
 var b = 3 || 0  &&  2; // 3 , true || false
 var c= 0 || 2 && 3; // 3 ,false || true
 ```
