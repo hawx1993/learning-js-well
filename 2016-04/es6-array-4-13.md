@@ -18,4 +18,4 @@ var c= 0 || 2 && 3; // 3 ,false || true
 
 ![array](../img/array.png)
 
-- [ES6 数组实例](./App.js)
+- [ES6 数组实例](./es6-array-04-13.js)

@@ -1,6 +1,4 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { message, Button } from 'antd'
+
 
 /**
  * Es6-Array
@@ -50,7 +48,7 @@ for(const i of ['a','p','p'].entries()){
 //includes es7
 console.log([1,2,3].includes(-1));//false
 
- 
+
 //数组的空位，undefined和null会被处理成空字符串。
 console.log(0 in [1,2,3,0]);//true
 console.log(undefined in [undefined,null,0]);//false
